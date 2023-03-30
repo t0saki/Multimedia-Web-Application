@@ -26,3 +26,10 @@ The website is highly interactive and dynamic, with a clear and well-defined pur
 ## Hypothetical Scenario
 
 If this project were funded by the local government, we would prioritize highlighting the unique selling points of the province/city and making it stand out among other destinations. We would research and showcase the best tourist attractions, business opportunities, and career prospects, while also providing practical information such as transportation and accommodations. We would use multimedia elements such as videos, photos, and interactive maps to engage and inform visitors. We would also ensure that the website is accessible and user-friendly for all audiences.
+
+## Version 1.0 UI Preview
+![](./UI%20images/Wireframe%201.png)
+![](./UI%20images/Wireframe%202.png)
+![](./UI%20images/Wireframe%203.png)
+![](./UI%20images/Wireframe%204.png)
+![](./UI%20images/Wireframe%205.png)
