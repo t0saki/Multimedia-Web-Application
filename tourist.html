@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>tourist</p>
+    <button id="Next" onclick="nextPage()">Next</button>
+    <script>
+        var button=document.getElementById("Next");
+        var pageSeq=[];
+        function nextPage(){
+            const storedPageSeq = JSON.parse(sessionStorage.getItem("pageseq"));
+            pageSeq = storedPageSeq ? storedPageSeq : [0, 0, 0];
+            if(pageSeq[1]==1){
+                window.location.href="business.html";
+                console.log("business");
+            }else if(pageSeq[2]==1){
+                window.location.href="work.html";
+                console.log("work");
+            }
+        }
+    </script>
+</body>
+</html>
