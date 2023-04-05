@@ -72,16 +72,16 @@
 <body>
     <div class="row">
         <div class="col">
-            <img id="tourist" src="https://via.placeholder.com/300x200.png?text=Image+1">
-            <p>这是图片 1 的描述文字</p>
+            <img id="tourist" src="https://via.placeholder.com/300x200.png?text=tourist">
+            <p>tourist</p>
         </div>
         <div class="col">
-            <img id="business" src="https://via.placeholder.com/300x200.png?text=Image+2">
-            <p>这是图片 2 的描述文字</p>
+            <img id="business" src="https://via.placeholder.com/300x200.png?text=business">
+            <p>business</p>
         </div>
         <div class="col">
-            <img id="work" src="https://via.placeholder.com/300x200.png?text=Image+3">
-            <p>这是图片 3 的描述文字</p>
+            <img id="work" src="https://via.placeholder.com/300x200.png?text=work">
+            <p>work</p>
         </div>
     </div>
     <script>
@@ -120,14 +120,6 @@
                     pageSeq[2] = 1;
                 }
             });
-
-            // const selectedImageUrls = selectedImages.map(image => image.src);
-            // const selectedImageDescriptions = selectedImages.map(image => image.nextSibling.textContent);
-            // const selectedImageData = {
-            //     urls: selectedImageUrls,
-            //     descriptions: selectedImageDescriptions
-            // };
-
 
             sessionStorage.setItem("pageseq", JSON.stringify(pageSeq));
             if(pageSeq[0]==1){
