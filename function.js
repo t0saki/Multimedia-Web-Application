@@ -3,10 +3,10 @@ const rightButton = document.querySelector(".right-btn");
 const heroImage = document.querySelector(".hero-image");
 
 const imagePaths = [
-    'image1.jpg',
-    'image2.jpg',
-    'image3.jpg'
-  ];
+  'image1.jpg',
+  'image2.jpg',
+  'image3.jpg'
+];
 let imageIndex = 1;
 
 leftButton.addEventListener("click", () => {
@@ -24,3 +24,8 @@ rightButton.addEventListener("click", () => {
   }
   heroImage.src = `image${imageIndex}.jpg`;
 });
+
+function ClickStart() {
+  // jmp to page2.html
+  window.location.href = "page2.html";
+}
