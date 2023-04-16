@@ -1,6 +1,8 @@
 # EBU6305 - Multimedia Web Application for Introducing a Province/City in China
 
 ---
+[View the website](https://t0saki.github.io/Multimedia-Web-Application/index.html)
+
 Group 42
 
 | Name          | QMUL ID   | BUPT ID    |
