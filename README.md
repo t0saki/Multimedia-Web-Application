@@ -35,3 +35,11 @@ If this project were funded by the local government, we would prioritize highlig
 ![](./UI%20images/Wireframe%203.png)
 ![](./UI%20images/Wireframe%204.png)
 ![](./UI%20images/Wireframe%205.png)
+
+## Todo List
+- [x] provide a content template
+- [x] basic structure of the website
+- [ ] fix main header in mobile view
+- [ ] complete filter function
+- [ ] add a page to introduce the category with glorious animation
+- [ ] add a map to show the location
