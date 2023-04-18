@@ -570,7 +570,7 @@ pre code {
     overflow-y: scroll
 }
 
-header{
+/* header{
     /* z-index: 999;
     position: absolute;
     top: 0;
@@ -580,9 +580,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 15px 200px;
-    transition: 0.5s ease; */
+    transition: 0.5s ease; 
     background: #000;
-}
+} */
 
 .container,
 .container-fluid,
