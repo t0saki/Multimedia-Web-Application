@@ -1,0 +1,24 @@
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadein {
+    animation-name: fadein;
+  }
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  .my-element {
+    opacity: 0; 
+  }
+  
+  .my-element.animated {
+    opacity: 1; 
+    transition: opacity 1s ease-in-out;
+  }

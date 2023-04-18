@@ -29,151 +29,22 @@
   <link href="source/plugins/slick/slick.css" rel="stylesheet">
   <link href="source/plugins/slick/slick-theme.css" rel="stylesheet">
   <link href="source/plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  <link href="css/New_page2.css" rel="stylesheet">
   
   <link href="css/style.css" rel="stylesheet">
-        <!-- html, body {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        }
-        main{
-            display: flex;
-            align-items: center;
-            justify-content:center;
-            text-align: center;
-            flex-direction: column;
-            height: 100%;
-            width: 100%;
-            background-color: whitesmoke;
-        }
-        main .row{
-            width: 90vw;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 1px;
-            margin-bottom: 1px;
-            max-width: 100%;
-            border: solid;
-            border-width: 1%;
-            border-color: azure;
-        }
-        h {
-            font-size: xx-large;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-        }
-        
-        .col {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 1px;
-            margin-bottom: 1px;
-            max-width: 100%;
-        }
-        .col p{
-            border: solid;
-            border: 5px;
-            text-align: center;
-            flex-basis: 70%;
-        }
-        .col img{
-            border: solid;
-            border: 5px;
-            border-color: black;
-            text-align: center;
-            flex-basis: 30%;
-            max-width: 100%;
-            height: auto;
-        }
-        .row.selected{
-            background-color: deepskyblue;
-        }
-        button {
-            font-size: large;
-            font-family: 'Times New Roman', Times, serif;
-            transform: scale(0.8); 
-            width: 100px; 
-            height: 50px; 
-            text-align: center;
-            padding: 10px;
-        }
-        .animate {
-        animation: slideInFromLeft 1s ease-in-out;
-        }
-
-        @keyframes slideInFromLeft {
-        0% {
-            opacity: 0;
-            transform: translateX(-300px);
-        }
-        100% {
-            opacity: 1;
-            transform: translateX(0);
-        }
-        }  -->
 </head>
 
 <body class="body-wrapper">
-    <!-- <main>
 
-    <h class="animate" style="animation-delay: 0.1s;">Tourist</h>
-    <br>
-    <div class="row blocks animate" style="animation-delay: 0.5s;">
-        <img class="col" src="https://via.placeholder.com/300x200.png?text=tourist1" alt="image2">
-        <p class="col">Description2</p>
-    </div>
-    <div class="row blocks animate" style="animation-delay: 0.7s;">
-          <img class="col" src="https://via.placeholder.com/300x200.png?text=tourist2" alt="image2">
-          <p class="col">Description2</p>
-      </div>
-
-    <button id="Next" onclick="nextPage()" class="animate" style="animation-delay: 1s;">Next</button>
-
-    <script>
-        var button = document.getElementById("Next");
-        var pageSeq = [];
-        const blocks=document.querySelectorAll(".row");
-        let selectedBlocks=[];
-        function nextPage() {
-            const storedPageSeq = JSON.parse(sessionStorage.getItem("pageseq"));
-            pageSeq = storedPageSeq ? storedPageSeq : [0, 0, 0];
-            if (pageSeq[1] == 1) {
-                window.location.href = "business.html";
-                console.log("business");
-            } else if (pageSeq[2] == 1) {
-                window.location.href = "work.html";
-                console.log("work");
-            }
-        }
-        blocks.forEach(blocks => {
-            blocks.addEventListener("click", () => {
-                if (selectedBlocks.includes(blocks)) {
-                    selectedBlocks = selectedBlocks.filter(row => row !== blocks);
-                    blocks.classList.remove("selected");
-                } else {
-                    selectedBlocks.push(blocks);
-                    blocks.classList.add("selected");
-                }
-            });
-        });
-
-        window.addEventListener('load', function() {
-      document.querySelector('.main').classList.add('animate');
-    });
-    </script>
-</main> -->
 <section class="section bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12" id="myDiv">
           <div class="heading text-center pb-5">
             <h2 class="font-weight-bold">Choose your purpose</h2>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 my-element">
           <div class="package-content bg-light border text-center p-5 my-2 my-lg-0">
             <div class="package-content-heading border-bottom">
               <i class="fa fa-paper-plane"></i>
@@ -187,7 +58,7 @@
             <a href="Tourism_class1.html" class="btn btn-primary">Start</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 my-element">
           <div class="package-content bg-light border text-center my-2 my-lg-0 p-5">
             <div class="package-content-heading border-bottom">
               <i class="fa fa-plane"></i>
@@ -201,7 +72,7 @@
             <a href="Investment_class1.html" class="btn btn-primary">Start</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mx-sm-auto">
+        <div class="col-lg-4 col-md-6 mx-sm-auto my-element">
           <div class="package-content bg-light border text-center p-5 my-2 my-lg-0">
             <div class="package-content-heading border-bottom">
               <i class="fa fa-rocket"></i>
@@ -227,10 +98,13 @@
 <script src="source/plugins/raty/jquery.raty-fa.js"></script>
 <script src="source/plugins/slick/slick.min.js"></script>
 <script src="source/plugins/jquery-nice-select/js/jquery.nice-select.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 <!-- google map -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
 <script src="source/plugins/google-map/map.js" defer></script>
 
 <script src="source/js/script.js"></script>
+<script src="js/New_page2.js"></script>
+
 </body>
 </html>
