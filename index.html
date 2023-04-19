@@ -35,6 +35,7 @@
   <link href="plugins/slick/slick.css" rel="stylesheet">
   <link href="plugins/slick/slick-theme.css" rel="stylesheet">
   <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  <link href="css/loading.css" rel="stylesheet">
   
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style_new.css">
@@ -43,6 +44,13 @@
 
 <body>
 
+	<div class="loading">
+		<div class="loading-circle"></div>
+		<div class="loading-text">Loading...</div>
+	  </div>
+	  
+
+<div class="main" style="display: none;">
 
 <header>
 	<div class="container">
@@ -51,7 +59,7 @@
 				<nav class="navbar navbar-expand-lg navbar-light navigation">
 					<a class="navbar-brand" href="index.html">
 						<!-- <img src="images/logo.png" alt=""> -->
-						<h1 style="color:#ffffff">Travel</h1>
+						<h1 style="color:#ffffff">Group 37</h1>
 					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -278,6 +286,7 @@
 	</div>
   </footer>
 
+</div>
 <!-- 
 Essential Scripts
 =====================================-->
@@ -296,5 +305,6 @@ Essential Scripts
 <script src="source/js/script.js"></script>
   <script src="js/main.js"></script>
   <script src="js/function.js"></script>
+  <script src="js/loading.js"></script>
 </body>
 </html>

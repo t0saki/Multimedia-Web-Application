@@ -1,0 +1,39 @@
+/* 隐藏加载页面，直到网页内容完全加载 */
+body {
+    overflow: hidden;
+  }
+  /* 设置加载页面的样式 */
+  .loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* 设置圆形加载动画的样式 */
+  .loading-circle {
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+  }
+  /* 设置加载文字的样式 */
+  .loading-text {
+    font-size: 20px;
+    color: #3498db;
+  }
+  /* 定义圆形加载动画的关键帧 */
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
