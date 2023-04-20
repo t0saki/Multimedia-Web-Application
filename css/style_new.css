@@ -229,7 +229,7 @@ section{
     right: 15px;
   }
 
-  header .navigation{
+  /* header .navigation{
     display: none;
   }
 
@@ -285,7 +285,7 @@ section{
     background-size: 25px;
     background-position: center;
     transition: 0.3s ease;
-  }
+  } */
 }
 
 @media (max-width: 560px){
