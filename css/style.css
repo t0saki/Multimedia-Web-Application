@@ -12,14 +12,23 @@ body {
   font-family: "Muli", sans-serif;
 }
 
-p, li, input, select, button {
+p,
+li,
+input,
+select,
+button {
   font-family: "Muli", sans-serif;
   color: #666;
   font-size: 14px;
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Muli", sans-serif;
   font-weight: 600;
   color: #333;
@@ -419,11 +428,13 @@ button {
   border-radius: 4px;
 }
 
-.btn-main, .btn-main-sm {
+.btn-main,
+.btn-main-sm {
   background: #5672f9;
   color: #fff;
 }
-.btn-main:hover, .btn-main-sm:hover {
+.btn-main:hover,
+.btn-main-sm:hover {
   background: #082de1;
   color: #fff;
 }
@@ -601,7 +612,7 @@ ul.pagination .active a {
 }
 
 .bg-gray {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 
 .bg-1 {
@@ -789,8 +800,8 @@ ul.pagination .active a {
     position: static;
   }
   .dropdown-slide .open > a,
-.dropdown-slide .open > a:focus,
-.dropdown-slide .open > a:hover {
+  .dropdown-slide .open > a:focus,
+  .dropdown-slide .open > a:hover {
     background: transparent;
   }
   .dropdown-slide.full-width .dropdown-menu {
@@ -810,7 +821,8 @@ ul.pagination .active a {
     visibility: hidden;
     opacity: 0;
     transform: translateY(10px);
-    transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    transition: visibility 0.2s, opacity 0.2s,
+      transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
   }
 }
 @media (min-width: 992px) and (max-width: 480px) {
@@ -848,7 +860,7 @@ ul.pagination .active a {
 }
 @media (max-width: 768px) {
   .hero-area .content-block h1,
-.hero-area-2 .content-block h1 {
+  .hero-area-2 .content-block h1 {
     font-size: 40px;
   }
 }
@@ -859,7 +871,7 @@ ul.pagination .active a {
 }
 @media (max-width: 768px) {
   .hero-area .content-block p,
-.hero-area-2 .content-block p {
+  .hero-area-2 .content-block p {
     font-size: 17px;
   }
 }
@@ -988,12 +1000,12 @@ ul.pagination .active a {
 }
 .user-dashboard-menu li a span {
   float: right;
-  background: #F4F7F9;
+  background: #f4f7f9;
   float: right;
   font-size: 10px;
   border-radius: 8px;
   padding: 3px 8px;
-  color: #84919B;
+  color: #84919b;
 }
 
 .user-dashboard-profile {
@@ -1002,7 +1014,7 @@ ul.pagination .active a {
 .user-dashboard-profile .profile-thumb img {
   width: 130px;
   height: auto;
-  border: 5px solid #F4F7F9;
+  border: 5px solid #f4f7f9;
 }
 .user-dashboard-profile h4 {
   margin-top: 10px;
@@ -1015,10 +1027,10 @@ ul.pagination .active a {
   margin-bottom: 3px;
 }
 .user-dashboard-profile .btn-contact {
-  background: #1FCA6B;
+  background: #1fca6b;
 }
 .user-dashboard-profile .btn-offer {
-  background: #373C4D;
+  background: #373c4d;
 }
 
 .dashboard-container .product-dashboard-table thead th {
@@ -1103,7 +1115,8 @@ ul.pagination .active a {
   background: #f7f7f7;
 }
 
-.submit-coupon .form-control, .submit-coupon .sbHolder {
+.submit-coupon .form-control,
+.submit-coupon .sbHolder {
   margin-bottom: 30px;
 }
 .submit-coupon button {
@@ -1181,7 +1194,7 @@ ul.pagination .active a {
 }
 .category-block .header {
   margin-bottom: 20px;
-  border-bottom: 3px solid #F4F7F9;
+  border-bottom: 3px solid #f4f7f9;
   text-align: center;
 }
 .category-block .header h4 {
@@ -1202,11 +1215,11 @@ ul.pagination .active a {
   box-shadow: 0 0 0px 4px rgba(254, 126, 23, 0.35);
 }
 .category-block .header .icon-bg-4 {
-  background: #EC3A56;
+  background: #ec3a56;
   box-shadow: 0 0 0px 4px rgba(236, 58, 86, 0.35);
 }
 .category-block .header .icon-bg-5 {
-  background: #1DBFFF;
+  background: #1dbfff;
   box-shadow: 0 0 0px 4px rgba(29, 191, 255, 0.35);
 }
 .category-block .header .icon-bg-6 {
@@ -1235,7 +1248,7 @@ ul.pagination .active a {
 .category-block .category-list li {
   display: block;
   font-size: 14px;
-  border-bottom: 1px solid #F4F7F9;
+  border-bottom: 1px solid #f4f7f9;
   padding: 10px 0;
 }
 .category-block .category-list li:last-child {
@@ -1251,7 +1264,7 @@ ul.pagination .active a {
   font-size: 10px;
   border-radius: 10px;
   padding: 3px 8px;
-  color: #84919B;
+  color: #84919b;
 }
 .category-block .category-list li a:hover {
   text-decoration: underline;
@@ -1301,7 +1314,8 @@ ul.pagination .active a {
   border-radius: 0;
 }
 
-.arrow-right, .arrow-left {
+.arrow-right,
+.arrow-left {
   cursor: pointer;
   width: 35px;
   height: 35px;
@@ -1501,7 +1515,10 @@ ul.pagination .active a {
   margin-bottom: 8px;
   border-radius: 0;
 }
-.product-review .review-submission input[type=email], .product-review .review-submission input[type=password], .product-review .review-submission input[type=text], .product-review .review-submission input[type=tel] {
+.product-review .review-submission input[type="email"],
+.product-review .review-submission input[type="password"],
+.product-review .review-submission input[type="text"],
+.product-review .review-submission input[type="tel"] {
   height: 40px;
 }
 
@@ -1521,7 +1538,7 @@ ul.pagination .active a {
   border-bottom: 1px solid #dedede;
 }
 .widget.category-list ul li:not(:last-child) {
-  border-bottom: 1px solid #F4F7F9;
+  border-bottom: 1px solid #f4f7f9;
 }
 .widget.category-list ul li a {
   padding: 8px 0;
@@ -1531,10 +1548,10 @@ ul.pagination .active a {
 .widget.category-list ul li a span {
   float: right;
   font-size: 10px;
-  background: #F4F7F9;
+  background: #f4f7f9;
   border-radius: 10px;
   padding: 3px 8px;
-  color: #84919B;
+  color: #84919b;
 }
 .widget.category-list ul li a:hover {
   color: #5672f9;
@@ -1620,7 +1637,8 @@ ul.pagination .active a {
   color: #5672f9;
   text-decoration: underline;
 }
-.widget.share-coupon .sbHolder, .widget.share-coupon .form-control {
+.widget.share-coupon .sbHolder,
+.widget.share-coupon .form-control {
   margin-bottom: 10px !important;
 }
 .widget.share-coupon button {
@@ -1659,7 +1677,10 @@ ul.pagination .active a {
 .widget.filter .form-check-label input {
   margin-right: 10px;
 }
-.widget.filter .form-check-label input[type=checkbox]:checked .form-check-label {
+.widget.filter
+  .form-check-label
+  input[type="checkbox"]:checked
+  .form-check-label {
   color: #5672f9 !important;
 }
 .widget.filter .form-check-label:hover {
@@ -1691,10 +1712,14 @@ ul.pagination .active a {
   letter-spacing: 0;
   color: #848484;
 }
-.widget.personal-info .form-group, .widget.change-password .form-group, .widget.change-email .form-group {
+.widget.personal-info .form-group,
+.widget.change-password .form-group,
+.widget.change-email .form-group {
   margin-bottom: 25px;
 }
-.widget.personal-info .form-group i, .widget.change-password .form-group i, .widget.change-email .form-group i {
+.widget.personal-info .form-group i,
+.widget.change-password .form-group i,
+.widget.change-email .form-group i {
   color: white;
   background: #5672f9;
   font-size: 25px;
@@ -1705,17 +1730,25 @@ ul.pagination .active a {
   border-radius: 100%;
 }
 @media (max-width: 768px) {
-  .widget.personal-info .form-group i, .widget.change-password .form-group i, .widget.change-email .form-group i {
+  .widget.personal-info .form-group i,
+  .widget.change-password .form-group i,
+  .widget.change-email .form-group i {
     margin-bottom: 20px;
   }
 }
-.widget.personal-info .form-check, .widget.change-password .form-check, .widget.change-email .form-check {
+.widget.personal-info .form-check,
+.widget.change-password .form-check,
+.widget.change-email .form-check {
   margin-bottom: 25px;
 }
-.widget.personal-info .form-check .form-check-label input, .widget.change-password .form-check .form-check-label input, .widget.change-email .form-check .form-check-label input {
+.widget.personal-info .form-check .form-check-label input,
+.widget.change-password .form-check .form-check-label input,
+.widget.change-email .form-check .form-check-label input {
   margin-right: 7px;
 }
-.widget.personal-info button, .widget.change-password button, .widget.change-email button {
+.widget.personal-info button,
+.widget.change-password button,
+.widget.change-email button {
   margin-top: 5px;
   margin-bottom: 10px;
 }
@@ -2046,7 +2079,7 @@ article.single-post p {
 
 .popup .block-1 {
   padding: 20px 80px;
-  background: #F6F8FA;
+  background: #f6f8fa;
 }
 .popup .block-1 .media .img-content {
   height: 80px;
@@ -2212,7 +2245,7 @@ form textarea {
 }
 .footer .block-2 {
   padding: 18px 30px;
-  background: #46484A;
+  background: #46484a;
   border-radius: 2px;
 }
 .footer .block-2.app-promotion {
@@ -2292,3 +2325,17 @@ form textarea {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+#map-container {
+  /* width: 300px; */
+  height: 200px;
+}
+.amap-icon img {
+  width: 25px;
+  height: 34px;
+}
+
+.amap-marker-label {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
