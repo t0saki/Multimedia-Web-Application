@@ -226,6 +226,36 @@
                                             class="float-right">(5)</span></a></li>
                             </ul>
                         </div>
+                        <div class="widget category">
+                          <!-- Widget Header -->
+                          <div id="map-container"></div>
+                          <script
+                            type="text/javascript"
+                            src="https://webapi.amap.com/maps?v=1.4.15&key=e6d3acdb51c07056e76f2b9f04d33791"
+                          ></script>
+          
+                          <script>
+                            var axis = [119.013097,29.594386];
+                            var map = new AMap.Map("map-container", {
+                              pitch: 60, // 地图俯仰角度，有效范围 0 度- 83 度
+                              viewMode: "3D", // 地图模式
+                              zoom: 15,
+                              center: axis,
+                              lang: "en",
+                            });
+                            var marker = new AMap.Marker({
+                              position: new AMap.LngLat(axis[0], axis[1]),
+                            });
+                            marker.setLabel({
+                              offset: new AMap.Pixel(0, -5), //设置文本标注偏移量
+                              content:
+                                "<div class='info'>Thousand Islet Lake</div>", //设置文本标注内容
+                              direction: "top", //设置文本标注方位
+                            });
+          
+                            map.add(marker);
+                          </script>
+                    </div>
                     </div>
                 </div>
 
