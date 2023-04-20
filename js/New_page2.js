@@ -43,9 +43,7 @@ function animate() {
                 item.classList.add('animated');
             }, index * delay);
             index++;
-        } else {
-            item.classList.remove('animated');
-        }
+        } 
     });
 }
 
