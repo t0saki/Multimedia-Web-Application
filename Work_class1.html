@@ -86,10 +86,10 @@
                                     </a>
                                     <!-- Dropdown list -->
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item @@category" href="Work_class1.html">class1</a></li>
-                                        <li><a class="dropdown-item @@listView" href="Work_class2.html">class2</a></li>
-                                        <li><a class="dropdown-item @@singlePage" href="Work_class3.html">class3</a></li>
-                                        <li><a class="dropdown-item @@store" href="Work_class4.html">class4</a></li>
+                                        <li><a class="dropdown-item @@category" href="Work_class1.html">Alibaba</a></li>
+                                        <li><a class="dropdown-item @@listView" href="Work_class2.html">Supor</a></li>
+                                        <li><a class="dropdown-item @@singlePage" href="Work_class3.html">Songcheng</a></li>
+                                        <li><a class="dropdown-item @@store" href="Work_class4.html">Geely</a></li>
                                         
                                         <!-- <li class="dropdown dropdown-submenu dropleft">
                                             <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="search-result bg-gray">
-                        <h2>Employment opportunities in Hangzhou ---- Class1</h2>
+                        <h2>Employment opportunities in Hangzhou ---- Alibaba</h2>
                     </div>
                 </div>
             </div>
@@ -134,62 +134,54 @@
                             <!-- Category -->
                             <h4 class="widget-header">All Category</h4>
                             <ul class="category-list">
-                                <li><a href="Work_class1.html">Work-class1 <span>93</span></a></li>
-                                <li><a href="Work_class2.html">Work-class2 <span>233</span></a></li>
-                                <li><a href="Work_class3.html">Work-class3 <span>183</span></a></li>
-                                <li><a href="Work_class4.html">Work-class4 <span>343</span></a></li>
+                                <li><a href="Work_class1.html">Alibaba <span>2</span></a></li>
+                                <li><a href="Work_class2.html">Supor <span>1</span></a></li>
+                                <li><a href="Work_class3.html">Songcheng <span>1</span></a></li>
+                                <li><a href="Work_class4.html">Geely <span>1</span></a></li>
                             </ul>
                         </div>
 
-                        <!-- Widget-filter -->
-                        <div class="widget filter my-element">
-                            <h4 class="widget-header">Show Employment</h4>
-                            <select>
-                                <option>Salary</option>
-                                <option value="1">Length of work</option>
-                            </select>
-                        </div>
+<!-- widget range -->
+<div class="widget price-range w-100 my-element">
+    <h4 class="widget-header">Years of service</h4>
+    <div class="block">
+      <input
+        class="range-track w-100"
+        id="range-track"
+        type="text"
+        data-slider-min="5"
+        data-slider-max="10"
+        data-slider-step="1"
+        data-slider-value="[5,10]"
+      />
+      <div class="d-flex justify-content-between mt-2">
+        <span class="value">5 - 10</span>
+      </div>
+    </div>
+  </div>
 
-                        <!-- widget range -->
-                        <div class="widget price-range w-100 my-element">
-                            <h4 class="widget-header">Salary</h4>
-                            <div class="block">
-                                                <input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
-                                                data-slider-value="[0,5000]">
-                                        <div class="d-flex justify-content-between mt-2">
-                                                <span class="value">$10 - $5000</span>
-                                        </div>
-                            </div>
-                        </div>
-
-                        <!-- Condition -->
-                        <div class="widget product-shorting my-element">
-                            <h4 class="widget-header">By Condition</h4>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Brand New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Almost New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Gently New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Havely New
-                              </label>
-                            </div>
-                        </div>
+  <!-- Condition -->
+  <div class="widget product-shorting my-element">
+    <h4 class="widget-header">By Condition</h4>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Programmer
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Product Designer
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Quality assurance
+      </label>
+    </div>
+  </div>
 
 
                     </div>
@@ -199,11 +191,16 @@
                 <div class="col-lg-9 col-md-8">
 
                     <!-- ad listing list  -->
-				<div class="ad-listing-list mt-20 my-element">
+				<div class="ad-listing-list mt-20 my-element"
+                id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="5"
+                    condition="Programmer">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Alibaba Cloud Intelligence - Distributed Storage Expert.html">
+                                <img src="source/images/Work/Alibaba/Alibaba01.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -211,13 +208,16 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Work1</a>
+                                            <a href="ContentPages/Alibaba Cloud Intelligence - Distributed Storage Expert.html" class="font-weight-bold">Alibaba Cloud Intelligence - Distributed Storage Expert</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Work_class1.html"> <i class="fa fa-folder-open-o"></i> Works</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Basic information</p>
+                                        <p class="pr-5">Department:Alibaba Group</p>
+                                        <p class="pr-5">Degree:Master</p>
+                                        <p class="pr-5">Years of service:5 years</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">
@@ -237,11 +237,16 @@
                 </div>
 
 
-                <div class="ad-listing-list mt-20 my-element">
+                <div class="ad-listing-list mt-20 my-element"
+                id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="5"
+                    condition="Programmer">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-2.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Cloud Gaming - Expert in Windows system development.html">
+                                <img src="source/images/Work/Alibaba/Alibaba01.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -249,127 +254,16 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Work2</a>
+                                            <a href="ContentPages/Cloud Gaming - Expert in Windows system development.html" class="font-weight-bold">Cloud Gaming - Expert in Windows system development</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Work_class1.html"> <i class="fa fa-folder-open-o"></i> Works</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 align-self-center">
-                                    <div class="product-ratings float-lg-right pb-3">
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="ad-listing-list mt-20 my-element">
-                    <div class="row p-lg-3 p-sm-5 p-4">
-                        <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-3.jpg" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-10">
-                                    <div class="ad-listing-content">
-                                        <div>
-                                            <a href="single.html" class="font-weight-bold">Work3</a>
-                                        </div>
-                                        <ul class="list-inline mt-2 mb-3">
-                                            <li class="list-inline-item"><a href="Work_class1.html"> <i class="fa fa-folder-open-o"></i> Works</a></li>
-                                            <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
-                                        </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 align-self-center">
-                                    <div class="product-ratings float-lg-right pb-3">
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="ad-listing-list mt-20 my-element">
-                    <div class="row p-lg-3 p-sm-5 p-4">
-                        <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-4.jpg" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-10">
-                                    <div class="ad-listing-content">
-                                        <div>
-                                            <a href="single.html" class="font-weight-bold">Work4</a>
-                                        </div>
-                                        <ul class="list-inline mt-2 mb-3">
-                                            <li class="list-inline-item"><a href="Work_class1.html"> <i class="fa fa-folder-open-o"></i> Works</a></li>
-                                            <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
-                                        </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 align-self-center">
-                                    <div class="product-ratings float-lg-right pb-3">
-                                        <ul class="list-inline">
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="ad-listing-list mt-20 my-element">
-                    <div class="row p-lg-3 p-sm-5 p-4">
-                        <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
-                            </a>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-6 col-md-10">
-                                    <div class="ad-listing-content">
-                                        <div>
-                                            <a href="single.html" class="font-weight-bold">Work5</a>
-                                        </div>
-                                        <ul class="list-inline mt-2 mb-3">
-                                            <li class="list-inline-item"><a href="Work_class1.html"> <i class="fa fa-folder-open-o"></i> Works</a></li>
-                                            <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
-                                        </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Basic information</p>
+                                        <p class="pr-5">Department:Alibaba Group</p>
+                                        <p class="pr-5">Degree:undergraduate</p>
+                                        <p class="pr-5">Years of service:5 years</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">

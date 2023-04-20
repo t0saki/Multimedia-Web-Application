@@ -97,11 +97,10 @@
                                     </a>
                                     <!-- Dropdown list -->
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item @@category" href="Work_class1.html">class1</a></li>
-                                        <li><a class="dropdown-item @@listView" href="Work_class2.html">class2</a></li>
-                                        <li><a class="dropdown-item @@singlePage" href="Work_class3.html">class3</a>
-                                        </li>
-                                        <li><a class="dropdown-item @@store" href="Work_class4.html">class4</a></li>
+                                        <li><a class="dropdown-item @@category" href="Work_class1.html">Alibaba</a></li>
+                                        <li><a class="dropdown-item @@listView" href="Work_class2.html">Supor</a></li>
+                                        <li><a class="dropdown-item @@singlePage" href="Work_class3.html">Songcheng</a></li>
+                                        <li><a class="dropdown-item @@store" href="Work_class4.html">Geely</a></li>
 
                                         <!-- <li class="dropdown dropdown-submenu dropleft">
                                             <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
@@ -146,63 +145,55 @@
                             <!-- Category -->
                             <h4 class="widget-header">All Category</h4>
                             <ul class="category-list">
-                                <li><a href="Tourism_class1.html">Nature <span>93</span></a></li>
-                                <li><a href="Tourism_class2.html">Culture <span>233</span></a></li>
-                                <li><a href="Tourism_class3.html">History <span>183</span></a></li>
-                                <li><a href="Tourism_class4.html">Food <span>343</span></a></li>
+                                <li><a href="Tourism_class1.html">Nature <span>6</span></a></li>
+                                <li><a href="Tourism_class2.html">Culture <span>5</span></a></li>
+                                <li><a href="Tourism_class3.html">History <span>4</span></a></li>
+                                <li><a href="Tourism_class4.html">Food <span>5</span></a></li>
                             </ul>
                         </div>
 
-                        <!-- Widget-filter -->
-                        <div class="widget filter my-element">
-                            <h4 class="widget-header">Show Spots</h4>
-                            <select>
-                                <option>Popularity</option>
-                                <option value="1">Duration of the tour</option>
-                                <option value="2">Ticket Prices</option>
-                            </select>
-                        </div>
 
-                        <!-- widget range -->
-                        <div class="widget price-range w-100 my-element">
-                            <h4 class="widget-header">Price Range</h4>
-                            <div class="block">
-                                <input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000"
-                                    data-slider-step="5" data-slider-value="[0,5000]">
-                                <div class="d-flex justify-content-between mt-2">
-                                    <span class="value">$10 - $5000</span>
-                                </div>
-                            </div>
-                        </div>
+ <!-- widget range -->
+ <!-- <div class="widget price-range w-100 my-element">
+    <h4 class="widget-header">Price Range</h4>
+    <div class="block">
+      <input
+        class="range-track w-100"
+        id="range-track"
+        type="text"
+        data-slider-min="0"
+        data-slider-max="50"
+        data-slider-step="5"
+        data-slider-value="[0,50]"
+      />
+      <div class="d-flex justify-content-between mt-2">
+        <span class="value">¥0 - ¥50</span>
+      </div>
+    </div>
+  </div> -->
 
-                        <!-- Condition -->
-                        <div class="widget product-shorting my-element">
-                            <h4 class="widget-header">By Condition</h4>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Brand New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Almost New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Gently New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Havely New
-                                </label>
-                            </div>
-                        </div>
+  <!-- Condition -->
+  <div class="widget product-shorting my-element">
+    <h4 class="widget-header">By Condition</h4>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Meat
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Aquaculture
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="" />
+        Pasta
+      </label>
+    </div>
+  </div>
 
 
                     </div>
@@ -212,7 +203,12 @@
                 <div class="col-lg-9 col-md-8">
 
                     <!-- ad listing list  -->
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Pasta">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
                                 <a href="ContentPages/cat.html">
@@ -251,7 +247,12 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Meat">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
                                 <a href="ContentPages/Dongporou.html">
@@ -290,7 +291,12 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Aquaculture">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
                                 <a href="ContentPages/Longjing.html">
@@ -329,7 +335,12 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Pasta">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
                                 <a href="ContentPages/w.html">
@@ -368,7 +379,12 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Aquaculture">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
                                 <a href="ContentPages/xihu.html">
