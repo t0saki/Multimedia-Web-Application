@@ -29,7 +29,7 @@
                     <nav class="navbar navbar-expand-lg navbar-light navigation">
                         <a class="navbar-brand" href="index.html">
                             <!-- <img src="images/logo.png" alt=""> -->
-                            <h1 >Tourism</h1>
+                            <h1 >Travel</h1>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -136,63 +136,55 @@
                             <!-- Category -->
                             <h4 class="widget-header">All Category</h4>
                             <ul class="category-list">
-                                <li><a href="Tourism_class1.html">Nature <span>93</span></a></li>
-                                <li><a href="Tourism_class2.html">Culture <span>233</span></a></li>
-                                <li><a href="Tourism_class3.html">History <span>183</span></a></li>
-                                <li><a href="Tourism_class4.html">Food <span>343</span></a></li>
+                                <li><a href="Tourism_class1.html">Nature <span>6</span></a></li>
+                                <li><a href="Tourism_class2.html">Culture <span>5</span></a></li>
+                                <li><a href="Tourism_class3.html">History <span>4</span></a></li>
+                                <li><a href="Tourism_class4.html">Food <span>5</span></a></li>
                             </ul>
                         </div>
 
-                        <!-- Widget-filter -->
-                        <div class="widget filter my-element">
-                            <h4 class="widget-header">Show Spots</h4>
-                            <select>
-                                <option>Popularity</option>
-                                <option value="1">Duration of the tour</option>
-                                <option value="2">Ticket Prices</option>
-                            </select>
-                        </div>
 
-                        <!-- widget range -->
-                        <div class="widget price-range w-100 my-element">
-                            <h4 class="widget-header">Price Range</h4>
-                            <div class="block">
-                                                <input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000" data-slider-step="5"
-                                                data-slider-value="[0,5000]">
-                                        <div class="d-flex justify-content-between mt-2">
-                                                <span class="value">$10 - $5000</span>
-                                        </div>
-                            </div>
-                        </div>
+              <!-- widget range -->
+              <div class="widget price-range w-100 my-element">
+                <h4 class="widget-header">Price Range</h4>
+                <div class="block">
+                  <input
+                    class="range-track w-100"
+                    id="range-track"
+                    type="text"
+                    data-slider-min="0"
+                    data-slider-max="50"
+                    data-slider-step="5"
+                    data-slider-value="[0,50]"
+                  />
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="value">¥0 - ¥50</span>
+                  </div>
+                </div>
+              </div>
 
-                        <!-- Condition -->
-                        <div class="widget product-shorting my-element">
-                            <h4 class="widget-header">By Condition</h4>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Brand New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Almost New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Gently New
-                              </label>
-                            </div>
-                            <div class="form-check">
-                              <label class="form-check-label">
-                                <input class="form-check-input" type="checkbox" value="">
-                                Havely New
-                              </label>
-                            </div>
-                        </div>
+              <!-- Condition -->
+              <div class="widget product-shorting my-element">
+                <h4 class="widget-header">By Condition</h4>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    Town
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    Tower
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    Temple
+                  </label>
+                </div>
+              </div>
 
 
                     </div>
@@ -202,11 +194,15 @@
                 <div class="col-lg-9 col-md-8">
 
                     <!-- ad listing list  -->
-				<div class="ad-listing-list mt-20 my-element">
+				<div class="ad-listing-list mt-20 my-element" id="ad-listing-data"
+                popularity="3"
+                duration="0"
+                price="0"
+                condition="Town">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Hangzhou Songcheng.html">
+                                <img src="source/images/Travel/Travel Culture/宋城02.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -214,13 +210,15 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Spots1</a>
+                                            <a href="ContentPages/Hangzhou Songcheng.html" class="font-weight-bold">Hangzhou Songcheng</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Tourism_class1.html"> <i class="fa fa-folder-open-o"></i> Tourism</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Time reference-- more than 3 hours</p>
+                                        <p class="pr-5">Tickets-- The specific price is subject to the venue announcement</p>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">
@@ -240,11 +238,16 @@
                 </div>
 
 
-                <div class="ad-listing-list mt-20 my-element">
+                <div class="ad-listing-list mt-20 my-element" 
+                id="ad-listing-data"
+                popularity="3"
+                duration="0"
+                price="40"
+                condition="Tower">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-2.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Leifeng Tower.html">
+                                <img src="source/images/Travel/Travel Culture/雷峰塔02.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -252,13 +255,14 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Spots2</a>
+                                            <a href="ContentPages/Leifeng Tower.html" class="font-weight-bold">Leifeng Tower</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Tourism_class1.html"> <i class="fa fa-folder-open-o"></i> Tourism</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Time reference-- 1-3 hours</p>
+                                        <p class="pr-5">Adult: RMB 40 (January 1 - December 31 Mon-Sun)</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">
@@ -278,11 +282,16 @@
                 </div>
 
 
-                <div class="ad-listing-list mt-20 my-element">
+                <div class="ad-listing-list mt-20 my-element"
+                id="ad-listing-data"
+                popularity="3"
+                duration="0"
+                price="45"
+                condition="Temple">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-3.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/LingYin Temple.html">
+                                <img src="source/images/Travel/Travel Culture/灵隐寺02.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -290,13 +299,15 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Spots3</a>
+                                            <a href="ContentPages/LingYin Temple.html" class="font-weight-bold">LingYin Temple</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Tourism_class1.html"> <i class="fa fa-folder-open-o"></i> Tourism</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Time reference-- 1-3 hours</p>
+                                        <p class="pr-5">Tickets-- Fei Lai Feng: Adult ticket RMB 45 / Half price ticket RMB 22.5 </p>
+                                        <p class="pr-5">Free ticket: Park Annual Pass or Senior Citizen Pass </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">
@@ -316,11 +327,16 @@
                 </div>
 
 
-                <div class="ad-listing-list mt-20 my-element">
+                <div class="ad-listing-list mt-20 my-element"
+                id="ad-listing-data"
+                popularity="3"
+                duration="0"
+                price="20"
+                condition="Tower">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-4.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Liuhe Pagoda.html">
+                                <img src="source/images/Travel/Travel Culture/六和塔01.jpeg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -328,13 +344,14 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Spots4</a>
+                                            <a href="ContentPages/Liuhe Pagoda.html" class="font-weight-bold">Liuhe Pagoda</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Tourism_class1.html"> <i class="fa fa-folder-open-o"></i> Tourism</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Time reference-- Less than 1 hour</p>
+                                        <p class="pr-5">Tickets-- Admission: Park admission 20 RMB / Tower admission 10 RMB / Park + Tower 30 RMB</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">
@@ -354,11 +371,16 @@
                 </div>
 
 
-                <div class="ad-listing-list mt-20 my-element">
+                <div class="ad-listing-list mt-20 my-element"
+                id="ad-listing-data"
+                popularity="3"
+                duration="0"
+                price="0"
+                condition="Town">
                     <div class="row p-lg-3 p-sm-5 p-4">
                         <div class="col-lg-4 align-self-center">
-                            <a href="single.html">
-                                <img src="images/products/products-1.jpg" class="img-fluid" alt="">
+                            <a href="ContentPages/Nanxun Town.html">
+                                <img src="source/images/Travel/Travel Culture/南浔古镇02.jpg" class="img-fluid" alt="">
                             </a>
                         </div>
                         <div class="col-lg-8">
@@ -366,13 +388,14 @@
                                 <div class="col-lg-6 col-md-10">
                                     <div class="ad-listing-content">
                                         <div>
-                                            <a href="single.html" class="font-weight-bold">Spots5</a>
+                                            <a href="ContentPages/Nanxun Town.html" class="font-weight-bold">Nanxun Town</a>
                                         </div>
                                         <ul class="list-inline mt-2 mb-3">
                                             <li class="list-inline-item"><a href="Tourism_class1.html"> <i class="fa fa-folder-open-o"></i> Tourism</a></li>
                                             <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                         </ul>
-                                        <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
+                                        <p class="pr-5">Time reference-- 1 day</p>
+                                        <p class="pr-5">Tickets-- gratis</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 align-self-center">

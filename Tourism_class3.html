@@ -29,7 +29,7 @@
                     <nav class="navbar navbar-expand-lg navbar-light navigation">
                         <a class="navbar-brand" href="index.html">
                             <!-- <img src="images/logo.png" alt=""> -->
-                            <h1 >Tourism</h1>
+                            <h1 >Travel</h1>
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,7 +90,7 @@
                                         <li><a class="dropdown-item @@listView" href="Work_class2.html">Supor</a></li>
                                         <li><a class="dropdown-item @@singlePage" href="Work_class3.html">Songcheng</a></li>
                                         <li><a class="dropdown-item @@store" href="Work_class4.html">Geely</a></li>
-                                        
+
                                         <!-- <li class="dropdown dropdown-submenu dropleft">
                                             <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
                         
@@ -135,63 +135,54 @@
                             <!-- Category -->
                             <h4 class="widget-header">All Category</h4>
                             <ul class="category-list">
-                                <li><a href="Tourism_class1.html">Nature <span>93</span></a></li>
-                                <li><a href="Tourism_class2.html">Culture <span>233</span></a></li>
-                                <li><a href="Tourism_class3.html">History <span>183</span></a></li>
-                                <li><a href="Tourism_class4.html">Food <span>343</span></a></li>
+                                <li><a href="Tourism_class1.html">Nature <span>6</span></a></li>
+                                <li><a href="Tourism_class2.html">Culture <span>5</span></a></li>
+                                <li><a href="Tourism_class3.html">History <span>4</span></a></li>
+                                <li><a href="Tourism_class4.html">Food <span>5</span></a></li>
                             </ul>
                         </div>
 
-                        <!-- Widget-filter -->
-                        <div class="widget filter my-element">
-                            <h4 class="widget-header">Show Spots</h4>
-                            <select>
-                                <option>Popularity</option>
-                                <option value="1">Duration of the tour</option>
-                                <option value="2">Ticket Prices</option>
-                            </select>
-                        </div>
+              <!-- widget range -->
+              <div class="widget price-range w-100 my-element">
+                <h4 class="widget-header">Price Range</h4>
+                <div class="block">
+                  <input
+                    class="range-track w-100"
+                    id="range-track"
+                    type="text"
+                    data-slider-min="0"
+                    data-slider-max="50"
+                    data-slider-step="5"
+                    data-slider-value="[0,50]"
+                  />
+                  <div class="d-flex justify-content-between mt-2">
+                    <span class="value">¥0 - ¥50</span>
+                  </div>
+                </div>
+              </div>
 
-                        <!-- widget range -->
-                        <div class="widget price-range w-100 my-element">
-                            <h4 class="widget-header">Price Range</h4>
-                            <div class="block">
-                                <input class="range-track w-100" type="text" data-slider-min="0" data-slider-max="5000"
-                                    data-slider-step="5" data-slider-value="[0,5000]">
-                                <div class="d-flex justify-content-between mt-2">
-                                    <span class="value">$10 - $5000</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Condition -->
-                        <div class="widget product-shorting my-element">
-                            <h4 class="widget-header">By Condition</h4>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Brand New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Almost New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Gently New
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    Havely New
-                                </label>
-                            </div>
-                        </div>
+              <!-- Condition -->
+              <div class="widget product-shorting my-element">
+                <h4 class="widget-header">By Condition</h4>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    Residence
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    University
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="" />
+                    Museum
+                  </label>
+                </div>
+              </div>
 
 
                     </div>
@@ -201,11 +192,16 @@
                 <div class="col-lg-9 col-md-8">
 
                     <!-- ad listing list  -->
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="20"
+                    condition="Residence">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
-                                <a href="single.html">
-                                    <img src="images/products/products-1.jpg" class="img-fluid" alt="">
+                                <a href="ContentPages/Hu Xueyan’s Former Residence.html">
+                                    <img src="source/images/Travel/Travel History/胡雪岩故居02.jpg" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-8">
@@ -213,15 +209,15 @@
                                     <div class="col-lg-6 col-md-10">
                                         <div class="ad-listing-content">
                                             <div>
-                                                <a href="single.html" class="font-weight-bold">Spots1</a>
+                                                <a href="ContentPages/Hu Xueyan’s Former Residence.html" class="font-weight-bold">Hu Xueyan’s Former Residence</a>
                                             </div>
                                             <ul class="list-inline mt-2 mb-3">
                                                 <li class="list-inline-item"><a href="Tourism_class1.html"> <i
                                                             class="fa fa-folder-open-o"></i> Tourism</a></li>
                                                 <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                             </ul>
-                                            <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Explicabo, aliquam!</p>
+                                            <p class="pr-5">Time reference-- 1-3 hours</p>
+                                            <p class="pr-5">Tickets-- Admission: RMB 20</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 align-self-center">
@@ -241,11 +237,16 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="0"
+                    condition="Museum">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
-                                <a href="single.html">
-                                    <img src="images/products/products-2.jpg" class="img-fluid" alt="">
+                                <a href="ContentPages/Wulin Branch of Zhejiang Provincial Museum.html">
+                                    <img src="source/images/Travel/Travel History/浙江省博物馆02.jpg" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-8">
@@ -253,55 +254,15 @@
                                     <div class="col-lg-6 col-md-10">
                                         <div class="ad-listing-content">
                                             <div>
-                                                <a href="single.html" class="font-weight-bold">Spots2</a>
+                                                <a href="ContentPages/Wulin Branch of Zhejiang Provincial Museum.html" class="font-weight-bold">Wulin Branch of Zhejiang Provincial Museum</a>
                                             </div>
                                             <ul class="list-inline mt-2 mb-3">
                                                 <li class="list-inline-item"><a href="Tourism_class1.html"> <i
                                                             class="fa fa-folder-open-o"></i> Tourism</a></li>
                                                 <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                             </ul>
-                                            <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Explicabo, aliquam!</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 align-self-center">
-                                        <div class="product-ratings float-lg-right pb-3">
-                                            <ul class="list-inline">
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-                                                <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="ad-listing-list mt-20 my-element">
-                        <div class="row p-lg-3 p-sm-5 p-4">
-                            <div class="col-lg-4 align-self-center">
-                                <a href="single.html">
-                                    <img src="images/products/products-3.jpg" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-8">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-10">
-                                        <div class="ad-listing-content">
-                                            <div>
-                                                <a href="single.html" class="font-weight-bold">Spots3</a>
-                                            </div>
-                                            <ul class="list-inline mt-2 mb-3">
-                                                <li class="list-inline-item"><a href="Tourism_class1.html"> <i
-                                                            class="fa fa-folder-open-o"></i> Tourism</a></li>
-                                                <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
-                                            </ul>
-                                            <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Explicabo, aliquam!</p>
+                                            <p class="pr-5">Time reference-- 1-3 hours</p>
+                                            <p class="pr-5">Tickets-- gratis</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 align-self-center">
@@ -321,11 +282,16 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="0"
+                    condition="Museum">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
-                                <a href="single.html">
-                                    <img src="images/products/products-4.jpg" class="img-fluid" alt="">
+                                <a href="ContentPages/Zhejiang Natural History Museum.html">
+                                    <img src="source/images/Travel/Travel History/浙江自然博物院01.jpg" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-8">
@@ -333,15 +299,15 @@
                                     <div class="col-lg-6 col-md-10">
                                         <div class="ad-listing-content">
                                             <div>
-                                                <a href="single.html" class="font-weight-bold">Spots4</a>
+                                                <a href="ContentPages/Zhejiang Natural History Museum.html" class="font-weight-bold">Zhejiang Natural History Museum</a>
                                             </div>
                                             <ul class="list-inline mt-2 mb-3">
                                                 <li class="list-inline-item"><a href="Tourism_class1.html"> <i
                                                             class="fa fa-folder-open-o"></i> Tourism</a></li>
                                                 <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                             </ul>
-                                            <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Explicabo, aliquam!</p>
+                                            <p class="pr-5">Time reference-- 1-3 hours</p>
+                                            <p class="pr-5">Tickets-- Please contact the scenic spot for details</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 align-self-center">
@@ -361,11 +327,16 @@
                     </div>
 
 
-                    <div class="ad-listing-list mt-20 my-element">
+                    <div class="ad-listing-list mt-20 my-element"
+                    id="ad-listing-data"
+                    popularity="3"
+                    duration="0"
+                    price="0"
+                    condition="University">
                         <div class="row p-lg-3 p-sm-5 p-4">
                             <div class="col-lg-4 align-self-center">
-                                <a href="single.html">
-                                    <img src="images/products/products-1.jpg" class="img-fluid" alt="">
+                                <a href="ContentPages/Zhejiang University.html">
+                                    <img src="source/images/Travel/Travel History/浙江大学02.jpg" class="img-fluid" alt="">
                                 </a>
                             </div>
                             <div class="col-lg-8">
@@ -373,15 +344,15 @@
                                     <div class="col-lg-6 col-md-10">
                                         <div class="ad-listing-content">
                                             <div>
-                                                <a href="single.html" class="font-weight-bold">Spots5</a>
+                                                <a href="ContentPages/Zhejiang University.html" class="font-weight-bold">Zhejiang University</a>
                                             </div>
                                             <ul class="list-inline mt-2 mb-3">
                                                 <li class="list-inline-item"><a href="Tourism_class1.html"> <i
                                                             class="fa fa-folder-open-o"></i> Tourism</a></li>
                                                 <!-- <li class="list-inline-item"><a href="category.htm"><i class="fa fa-calendar"></i>26th December</a></li> -->
                                             </ul>
-                                            <p class="pr-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                Explicabo, aliquam!</p>
+                                            <p class="pr-5">Time reference-- 1-3 hours</p>
+                                            <p class="pr-5">Tickets-- gratis</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 align-self-center">
