@@ -39,7 +39,11 @@ If this project were funded by the local government, we would prioritize highlig
 ## Todo List
 - [x] provide a content template
 - [x] basic structure of the website
-- [ ] fix main header in mobile view
-- [ ] complete filter function
-- [ ] add a page to introduce the category with glorious animation
-- [ ] add a map to show the location
+- [x] fix main header in mobile view
+- [x] complete filter function
+- [x] add a page to introduce the category with glorious animation
+- [x] add a map to show the location
+
+## References
+
+* [themefisher / classimax](https://github.com/themefisher/classimax)
