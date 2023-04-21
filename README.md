@@ -29,11 +29,8 @@ The website is designed for the general public, including children, adults, and 
 
 The website is highly interactive and dynamic, with a clear and well-defined purpose. It has a clear structure and screen layout, and delivers high user experience. The website is compatible with all browsers and screen sizes. Creative design and visual impact have been taken into consideration to enhance appeal.
 
-## Hypothetical Scenario
-
-If this project were funded by the local government, we would prioritize highlighting the unique selling points of the province/city and making it stand out among other destinations. We would research and showcase the best tourist attractions, business opportunities, and career prospects, while also providing practical information such as transportation and accommodations. We would use multimedia elements such as videos, photos, and interactive maps to engage and inform visitors. We would also ensure that the website is accessible and user-friendly for all audiences.
-
 ## Version 1.0 UI Preview
+
 ![](./UI%20images/Wireframe%201.png)
 ![](./UI%20images/Wireframe%202.png)
 ![](./UI%20images/Wireframe%203.png)
@@ -41,6 +38,7 @@ If this project were funded by the local government, we would prioritize highlig
 ![](./UI%20images/Wireframe%205.png)
 
 ## Todo List
+
 - [x] provide a content template
 - [x] basic structure of the website
 - [x] fix main header in mobile view
