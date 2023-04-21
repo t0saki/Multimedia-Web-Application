@@ -1,9 +1,9 @@
-# EBU6305 - Multimedia Web Application for Introducing a Province/City in China
+# EBU6305 - Group 42 - Hangzhou Web Project
 
 ---
 [View the website](https://t0saki.github.io/Multimedia-Web-Application/index.html)
 
-Group 42
+Group 42 members:
 
 | Name          | QMUL ID   | BUPT ID    |
 | ------------- | --------- | ---------- |
