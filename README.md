@@ -17,6 +17,10 @@ Group 42
 
 This is a web application that introduces a province/city in China using interactive media. The purpose of the website is to attract tourists, investors, and professionals to visit, do business, and work there. The website promotes and advertises the scenery, resources, culture, and prospects of the place.
 
+### Video Demo
+
+[![Video Demo](https://img.youtube.com/vi/https://www.youtube.com/watch?v=QIh6mxHCXF8/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=QIh6mxHCXF8)
+
 ## Target Audience
 
 The website is designed for the general public, including children, adults, and the elderly.
