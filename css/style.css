@@ -2330,6 +2330,12 @@ form textarea {
   /* width: 300px; */
   height: 200px;
 }
+
+#map-container2 {
+  /* width: 300px; */
+  height: 600px;
+}
+
 .amap-icon img {
   width: 25px;
   height: 34px;
