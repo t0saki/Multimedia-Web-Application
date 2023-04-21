@@ -19,7 +19,7 @@ This is a web application that introduces a province/city in China using interac
 
 ### Video Demo
 
-[![Video Demo](https://img.youtube.com/vi/https://www.youtube.com/watch?v=QIh6mxHCXF8/0.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=QIh6mxHCXF8)
+[![Video Demo](https://img.youtube.com/vi/QIh6mxHCXF8/0.jpg)](https://www.youtube.com/watch?v=QIh6mxHCXF8)
 
 ## Target Audience
 
