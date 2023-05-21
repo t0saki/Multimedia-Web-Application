@@ -1,4 +1,4 @@
-# EBU6305 - Group 42 - Hangzhou Web Project
+# EBU6305 - Group 42 - ZenithWeb Hangzhou
 
 ---
 [View the website](https://t0saki.github.io/Multimedia-Web-Application/index.html)
