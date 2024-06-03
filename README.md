@@ -3,16 +3,6 @@
 ---
 [View the website](https://t0saki.github.io/Multimedia-Web-Application/index.html)
 
-Group 42 members:
-
-| Name          | QMUL ID   | BUPT ID    |
-| ------------- | --------- | ---------- |
-| Zhengxiao Wu  | 200978936 | 2020213235 |
-| Xiangzhe Kong | 200977618 | 2020213224 |
-| Guo Yu        | 200979416 | 2020213229 |
-| Ruilin Liao   | 200977951 | 2020213227 |
-| Yutian Xia    | 200979014 | 2020213236 |
-
 ---
 
 This is a web application that introduces a province/city in China using interactive media. The purpose of the website is to attract tourists, investors, and professionals to visit, do business, and work there. The website promotes and advertises the scenery, resources, culture, and prospects of the place.
